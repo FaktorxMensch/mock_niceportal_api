@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    ssr: false,
     app: {
         head: {
             // und icons für ios app screen
@@ -24,5 +25,7 @@ export default defineNuxtConfig({
         }]
     },
 
-    modules: ["@nuxtjs/tailwindcss", "vuetify-nuxt-module", "@pinia/nuxt"]
+    modules: ["@nuxtjs/tailwindcss", "vuetify-nuxt-module", "@pinia/nuxt"],
+
+
 })
